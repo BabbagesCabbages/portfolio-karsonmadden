@@ -2,7 +2,7 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/hero.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -25,6 +25,9 @@ header.masthead {
       @include heading-font;
     }
   }
+}
+.intro-lead-in, .intro-heading {
+    text-shadow: black 1px 1px 9px!important;
 }
 @media(min-width:768px) {
   header.masthead {
